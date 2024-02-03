@@ -1,0 +1,20 @@
+{
+    "baseUrl": "https://qa.navirefi.com",
+    "env": {
+      "ENVIRONMENT": "staging",
+      "SERVICE_URI": "https://slo-service.staging.earnest.com"
+
+    },
+    "retries": 3,
+    "reporter": "mochawesome",
+    "reporterOptions": {
+      "reportDir": "UI-Automation/test-reports",
+      "overwrite": false,
+      "html": true,
+      "json": true
+    },
+    "chromeWebSecurity": false,
+    "viewportWidth": 1200,
+    "viewportHeight": 1400
+  }
+  

@@ -1,0 +1,49 @@
+# Generic repo config
+logs
+*.log
+pids
+*.pid
+node_modules
+cypress
+*.csv
+*.dat
+*.out
+*.gz
+npm-debug.log
+node_modules
+.DS_STORE
+.build
+.idea/
+coverage
+.npmrc
+.nyc_output/
+/.vscode/
+UI-Automation/test-reports
+UI-Automation/screenshots
+UI-Automation/videos
+cypress.env.json
+API-Automation/reports
+
+# Compiled output
+dist
+test-results.xml
+report.xml
+test-reports
+videos
+
+# Encryption config
+encryption-config.js
+
+build.json
+
+# Python version managers
+.python-version
+__pycache__
+
+/videos/*
+/screenshots/*
+
+v8-compile-cache-0/
+.com.google.Chrome*
+vault-data
+yarn.lock
